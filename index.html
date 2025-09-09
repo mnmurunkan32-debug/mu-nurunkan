@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MN MURUNKAN C.C - Result Checker</title>
+  <link rel="stylesheet" href="asrin.css">
+</head>
+<body>
+  <div class="container">
+    <div style="position:absolute; top:20px; right:20px;">
+      <select id="langSwitcher" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="ta">தமிழ்</option>
+      </select>
+    </div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8rOZTyGwZxWxkYV2v0UtAeA1BRzvmccL9bg&s" class="logo" alt="School Logo" />
+    <h1 data-key="school_name">MN MURUNKAN C.C</h1>
+    <h2 data-key="checker_title">🎓 Result Checker</h2>
+
+    <input type="text" id="roll" placeholder="Enter Roll Number" data-key="roll_placeholder" maxlength="5" />
+    <button onclick="checkResult()" data-key="check_btn">Check Result</button>
+
+    <div id="result"></div>
+    
+    <div class="footer">
+      <h3>📍 Contact Information</h3>
+      <p><strong>School:</strong> MN Murunkan Central College</p>
+      <p><strong>Address:</strong> Murunkan, Mannar District, Sri Lanka</p>
+      <p><strong>Phone:</strong> <a href="tel:+94771234567">+94 77 123 4567</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@mnmurunkancollege.lk">info@mnmurunkancollege.lk</a></p>
+      <p><strong>Website:</strong> <a href="http://www.mnmurunkancollege.lk" target="_blank">www.mnmurunkancollege.lk</a></p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.287472719141!2d79.9749539!3d8.7737477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe8ffbd1177c9b%3A0x2c76d46f34710937!2sMurunkan%20Central%20College!5e0!3m2!1sen!2slk!4v1722278000000!5m2!1sen!2slk"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="dina.js"></script>
+</body>
+</html>
